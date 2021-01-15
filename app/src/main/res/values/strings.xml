@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Self Tracker</string>
+    <string-array name="arrPriority">
+        <item>No power</item>
+        <item>City level precision</item>
+        <item>Block level precision</item>
+        <item>GPS</item>
+    </string-array>
+    <string-array name="arrPrecision">
+        <item>City level</item>
+        <item>Block level</item>
+        <item>GPS</item>
+    </string-array>
+</resources>

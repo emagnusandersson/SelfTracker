@@ -1,0 +1,11 @@
+
++ /app
+- /*
+#P hashcodes.txt
+#H hashcodes.txt
+
+#rsync -avPit --delete-after --delete-excluded --filter=". /home/magnus/progBash/rsyncFilter2LACIE.txt" ~/ /media/magnus/LACIE/sync/ 2>~/progNode/rsync-errors
+
+#rsync -avPitnF --delete-after --delete-excluded ~/ /media/magnus/LACIE/sync/ 2>~/progNode/rsync-errors
+
+

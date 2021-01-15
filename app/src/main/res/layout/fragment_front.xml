@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:orientation="vertical"
+    tools:context=".FragmentFront">
+
+    <TextView
+        android:id="@+id/linkInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Info"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFront"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5dp"
+        tools:listitem="@layout/item_list_front" />
+
+    <TextView
+        android:id="@+id/textTHide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_margin="2dp"
+        tools:text="Hiding 15:55" />
+    <LinearLayout
+        android:id="@+id/linearBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:baselineAligned="false">
+        <Spinner
+            android:id="@+id/spinnerTHide"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp" />
+
+        <Button
+            android:id="@+id/butOn"
+            style="@style/narrowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="On"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/butOff"
+            style="@style/narrowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Off"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/butCheck"
+            style="@style/narrowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Check status"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/butToManage"
+            style="@style/narrowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Manage list"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/butToSetting"
+            style="@style/narrowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="⚙" />
+    </LinearLayout>
+</LinearLayout>
