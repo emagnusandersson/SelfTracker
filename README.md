@@ -1,3 +1,3 @@
-Background Tracker
+Background Location Broadcaster
 ============
-More info here https://gavott.com/backgroundTracker
+More info here https://gavott.com/backgroundlocationbroadcaster

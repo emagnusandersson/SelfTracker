@@ -1,4 +1,4 @@
-package com.gavott.selftracker
+package com.gavott.backgroundlocationbroadcaster
 
 import android.content.Context
 import android.content.DialogInterface
@@ -15,11 +15,11 @@ import com.android.volley.toolbox.Volley
 import com.google.android.gms.location.*
 import kotlinx.serialization.*
 
-val uriInfo="https://gavott.com/selfTracker"
-val uriListOfValidSites="https://gavott.com/selfTracker_ListOfValidSites"
-val uriHelpSettings="https://gavott.com/selfTracker_helpSettings"
-val uriPrivacy="https://gavott.com/selfTracker_privacy"
-//val uriPrivacy="https://emagnusandersson.github.io/selfTracker/privacy.html"
+val uriInfo="https://gavott.com/backgroundLocationBroadcaster"
+val uriListOfValidSites="https://gavott.com/backgroundLocationBroadcaster_ListOfValidSites"
+val uriHelpSettings="https://gavott.com/backgroundLocationBroadcaster_helpSettings"
+val uriPrivacy="https://gavott.com/backgroundLocationBroadcaster_privacy"
+//val uriPrivacy="https://emagnusandersson.github.io/backgroundLocationBroadcasterprivacy.html"
 // https://demo.closeby.market#12345678901234567890123456789012
 
 @Serializable

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Self Tracker</string>
+    <string name="app_name">Background Location Broadcaster</string>
     <string-array name="arrPriority">
         <item>No power</item>
         <item>City level precision</item>

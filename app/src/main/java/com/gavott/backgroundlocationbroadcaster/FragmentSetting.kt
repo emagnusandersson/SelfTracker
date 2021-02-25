@@ -1,4 +1,4 @@
-package com.gavott.selftracker
+package com.gavott.backgroundlocationbroadcaster
 
 import android.content.DialogInterface
 import android.os.Bundle

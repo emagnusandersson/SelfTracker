@@ -1,4 +1,4 @@
-package com.gavott.selftracker
+package com.gavott.backgroundlocationbroadcaster
 
 import android.net.Uri
 import android.webkit.URLUtil

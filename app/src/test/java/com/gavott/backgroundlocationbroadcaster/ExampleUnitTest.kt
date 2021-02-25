@@ -1,4 +1,4 @@
-package com.gavott.selftracker
+package com.gavott.backgroundlocationbroadcaster
 
 import org.junit.Test
 

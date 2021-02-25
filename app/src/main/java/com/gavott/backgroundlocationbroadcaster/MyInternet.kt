@@ -1,4 +1,4 @@
-package com.gavott.selftracker
+package com.gavott.backgroundlocationbroadcaster
 
 import android.util.Log
 import androidx.lifecycle.LiveData

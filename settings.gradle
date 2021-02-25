@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name='Background Tracker'
+rootProject.name='Background Location Broadcaster'
